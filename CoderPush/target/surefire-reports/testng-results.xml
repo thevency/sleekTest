@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-13T19:18:57 ICT" name="Surefire suite" finished-at="2022-11-13T19:19:16 ICT" duration-ms="19717">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@729d991e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-11-13T19:18:57 ICT" name="Surefire test" finished-at="2022-11-13T19:19:16 ICT" duration-ms="19717">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@729d991e]" started-at="2022-11-13T19:18:57 ICT" name="setUpClass" finished-at="2022-11-13T19:19:01 ICT" duration-ms="4011" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@25fa6889]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@729d991e]" started-at="2022-11-13T19:19:01 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-13T19:19:03 ICT" duration-ms="2657" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Business Account deposit or monthly fees table values verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sleek Business Account"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@729d991e]" started-at="2022-11-13T19:19:03 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-13T19:19:16 ICT" duration-ms="12735" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scheduled Talking To Expert Verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sleek Pricing"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@729d991e]" started-at="2022-11-13T19:19:16 ICT" name="tearDownClass" finished-at="2022-11-13T19:19:16 ICT" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
